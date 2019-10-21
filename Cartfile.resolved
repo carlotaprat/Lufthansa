@@ -1,0 +1,2 @@
+github "Alamofire/Alamofire" "5.0.0.beta.1"
+github "jrendel/SwiftKeychainWrapper" "3.4.0"

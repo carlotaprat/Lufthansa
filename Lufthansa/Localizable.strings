@@ -1,0 +1,13 @@
+// Alerts
+"internal_error_title" = "Oops!";
+"internal_error_description" = "Looks like something is wrong. Wait a bit or contact us!";
+"service_error_title" = "No results found";
+"service_error_description" = "Connect to a network to keep exploring this universe.";
+"general_error_title" = "Oops!";
+"general_error_description" = "Something went wrong.";
+"ok_dialog" = "OK";
+"retry_dialog" = "Retry";
+
+// Map
+"departure_airport" = "Departure Airport";
+"arrival_airport" = "Arrival Airport";

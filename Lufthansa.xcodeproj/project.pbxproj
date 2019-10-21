@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EA1742235476E500BCBE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1741235476E500BCBE96 /* AppDelegate.swift */; };
+		88EA1744235476E500BCBE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1743235476E500BCBE96 /* SceneDelegate.swift */; };
+		88EA1749235476E500BCBE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1747235476E500BCBE96 /* Main.storyboard */; };
+		88EA174B235476E600BCBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EA174A235476E600BCBE96 /* Assets.xcassets */; };
+		88EA174E235476E600BCBE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA174C235476E600BCBE96 /* LaunchScreen.storyboard */; };
+		88EA1759235476E700BCBE96 /* LufthansaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1758235476E700BCBE96 /* LufthansaTests.swift */; };
+		88EA17642354771E00BCBE96 /* AirportSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */; };
+		88EA17662354773F00BCBE96 /* AirportSelectionViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */; };
+		88EA17692354797500BCBE96 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17682354797500BCBE96 /* UIColorExtension.swift */; };
+		88EA176C23547E0300BCBE96 /* LufthansaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA176B23547E0300BCBE96 /* LufthansaButton.swift */; };
+		88EA176E2354892600BCBE96 /* LufthansaTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA176D2354892600BCBE96 /* LufthansaTextView.swift */; };
+		88EA1772235490C200BCBE96 /* SchedulesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1771235490C200BCBE96 /* SchedulesListViewController.swift */; };
+		88EA1774235490DD00BCBE96 /* SchedulesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1773235490DD00BCBE96 /* SchedulesListViewModel.swift */; };
+		88EA1776235490FC00BCBE96 /* ScheduleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1775235490FC00BCBE96 /* ScheduleListCell.swift */; };
+		88EA17782354910900BCBE96 /* ScheduleListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17772354910900BCBE96 /* ScheduleListCellViewModel.swift */; };
+		88EA177B235491CB00BCBE96 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA177A235491CB00BCBE96 /* APIService.swift */; };
+		88EA177D235491E000BCBE96 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA177C235491E000BCBE96 /* DataService.swift */; };
+		88EA17842354945F00BCBE96 /* LufthansaErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17832354945F00BCBE96 /* LufthansaErrorType.swift */; };
+		88EA17872354950D00BCBE96 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17862354950D00BCBE96 /* ServiceHelper.swift */; };
+		88EA17892354984800BCBE96 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17882354984800BCBE96 /* TokenResponse.swift */; };
+		88EA178B23549A6000BCBE96 /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA178A23549A6000BCBE96 /* APIUrls.swift */; };
+		88EA179023549B5800BCBE96 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA178E23549B5800BCBE96 /* SwiftKeychainWrapper.framework */; };
+		88EA179123549B5800BCBE96 /* SwiftKeychainWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA178E23549B5800BCBE96 /* SwiftKeychainWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88EA179223549B5800BCBE96 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA178F23549B5800BCBE96 /* Alamofire.framework */; };
+		88EA179323549B5800BCBE96 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA178F23549B5800BCBE96 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88EA1796235600BD00BCBE96 /* PaginatedAirports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1795235600BD00BCBE96 /* PaginatedAirports.swift */; };
+		88EA1798235600CB00BCBE96 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1797235600CB00BCBE96 /* Airport.swift */; };
+		88EA179A23560E0300BCBE96 /* AirportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA179923560E0300BCBE96 /* AirportListViewController.swift */; };
+		88EA179C23560E7600BCBE96 /* AirportListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA179B23560E7600BCBE96 /* AirportListViewModel.swift */; };
+		88EA179E23561CA700BCBE96 /* AirportListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA179D23561CA700BCBE96 /* AirportListCell.swift */; };
+		88EA17A023561CB600BCBE96 /* AirportListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA179F23561CB600BCBE96 /* AirportListCellViewModel.swift */; };
+		88EA17A22357523600BCBE96 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17A12357523600BCBE96 /* UIButtonExtension.swift */; };
+		88EA17A42357569800BCBE96 /* PaginatedSchedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17A32357569800BCBE96 /* PaginatedSchedules.swift */; };
+		88EA17A62357572800BCBE96 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17A52357572800BCBE96 /* Schedule.swift */; };
+		88EA17A8235872B500BCBE96 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17A7235872B500BCBE96 /* DictionaryExtension.swift */; };
+		88EA17AA2358955100BCBE96 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17A92358955100BCBE96 /* Flight.swift */; };
+		88EA17B42358B2CB00BCBE96 /* ItineraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17B32358B2CB00BCBE96 /* ItineraryViewController.swift */; };
+		88EA17B62358B8C700BCBE96 /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17B52358B8C700BCBE96 /* ItineraryViewModel.swift */; };
+		88EA17B82359F0C700BCBE96 /* NoResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17B72359F0C700BCBE96 /* NoResultsCell.swift */; };
+		88EA17BC235DD81400BCBE96 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17BB235DD81400BCBE96 /* DateHelper.swift */; };
+		88EA17C0235DDE1F00BCBE96 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17BF235DDE1F00BCBE96 /* AlertHelper.swift */; };
+		88EA17C2235DDE5900BCBE96 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17C1235DDE5900BCBE96 /* StringExtension.swift */; };
+		88EA17C4235DDEA400BCBE96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17C3235DDEA400BCBE96 /* Localizable.strings */; };
+		88EA17C6235DE0C200BCBE96 /* ServiceAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17C5235DE0C200BCBE96 /* ServiceAlertProtocol.swift */; };
+		88EA17C9235DEB2400BCBE96 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88EA1755235476E700BCBE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EA1736235476E500BCBE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EA173D235476E500BCBE96;
+			remoteInfo = Lufthansa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88EA179423549B5800BCBE96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				88EA179123549B5800BCBE96 /* SwiftKeychainWrapper.framework in Embed Frameworks */,
+				88EA179323549B5800BCBE96 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88EA173E235476E500BCBE96 /* Lufthansa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lufthansa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EA1741235476E500BCBE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88EA1743235476E500BCBE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88EA1748235476E500BCBE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EA174A235476E600BCBE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88EA174D235476E600BCBE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88EA174F235476E600BCBE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EA1754235476E700BCBE96 /* LufthansaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LufthansaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EA1758235476E700BCBE96 /* LufthansaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufthansaTests.swift; sourceTree = "<group>"; };
+		88EA175A235476E700BCBE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionViewModel.swift; sourceTree = "<group>"; };
+		88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionViewContoller.swift; sourceTree = "<group>"; };
+		88EA17682354797500BCBE96 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		88EA176B23547E0300BCBE96 /* LufthansaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufthansaButton.swift; sourceTree = "<group>"; };
+		88EA176D2354892600BCBE96 /* LufthansaTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufthansaTextView.swift; sourceTree = "<group>"; };
+		88EA1771235490C200BCBE96 /* SchedulesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesListViewController.swift; sourceTree = "<group>"; };
+		88EA1773235490DD00BCBE96 /* SchedulesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesListViewModel.swift; sourceTree = "<group>"; };
+		88EA1775235490FC00BCBE96 /* ScheduleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListCell.swift; sourceTree = "<group>"; };
+		88EA17772354910900BCBE96 /* ScheduleListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListCellViewModel.swift; sourceTree = "<group>"; };
+		88EA177A235491CB00BCBE96 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		88EA177C235491E000BCBE96 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		88EA17832354945F00BCBE96 /* LufthansaErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufthansaErrorType.swift; sourceTree = "<group>"; };
+		88EA17862354950D00BCBE96 /* ServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		88EA17882354984800BCBE96 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		88EA178A23549A6000BCBE96 /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
+		88EA178E23549B5800BCBE96 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
+		88EA178F23549B5800BCBE96 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		88EA1795235600BD00BCBE96 /* PaginatedAirports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedAirports.swift; sourceTree = "<group>"; };
+		88EA1797235600CB00BCBE96 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		88EA179923560E0300BCBE96 /* AirportListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListViewController.swift; sourceTree = "<group>"; };
+		88EA179B23560E7600BCBE96 /* AirportListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListViewModel.swift; sourceTree = "<group>"; };
+		88EA179D23561CA700BCBE96 /* AirportListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListCell.swift; sourceTree = "<group>"; };
+		88EA179F23561CB600BCBE96 /* AirportListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListCellViewModel.swift; sourceTree = "<group>"; };
+		88EA17A12357523600BCBE96 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		88EA17A32357569800BCBE96 /* PaginatedSchedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedSchedules.swift; sourceTree = "<group>"; };
+		88EA17A52357572800BCBE96 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		88EA17A7235872B500BCBE96 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		88EA17A92358955100BCBE96 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		88EA17B32358B2CB00BCBE96 /* ItineraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewController.swift; sourceTree = "<group>"; };
+		88EA17B52358B8C700BCBE96 /* ItineraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
+		88EA17B72359F0C700BCBE96 /* NoResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultsCell.swift; sourceTree = "<group>"; };
+		88EA17BB235DD81400BCBE96 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		88EA17BF235DDE1F00BCBE96 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		88EA17C1235DDE5900BCBE96 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		88EA17C3235DDEA400BCBE96 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		88EA17C5235DE0C200BCBE96 /* ServiceAlertProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAlertProtocol.swift; sourceTree = "<group>"; };
+		88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88EA173B235476E500BCBE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EA179023549B5800BCBE96 /* SwiftKeychainWrapper.framework in Frameworks */,
+				88EA179223549B5800BCBE96 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EA1751235476E700BCBE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88EA1735235476E500BCBE96 = {
+			isa = PBXGroup;
+			children = (
+				88EA1740235476E500BCBE96 /* Lufthansa */,
+				88EA1757235476E700BCBE96 /* LufthansaTests */,
+				88EA173F235476E500BCBE96 /* Products */,
+				88EA178D23549B5700BCBE96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88EA173F235476E500BCBE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EA173E235476E500BCBE96 /* Lufthansa.app */,
+				88EA1754235476E700BCBE96 /* LufthansaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88EA1740235476E500BCBE96 /* Lufthansa */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17C7235DE90800BCBE96 /* Support Files */,
+				88EA17852354950500BCBE96 /* Helpers */,
+				88EA17822354944E00BCBE96 /* Enums */,
+				88EA1781235493F700BCBE96 /* Protocols */,
+				88EA177E2354934800BCBE96 /* Models */,
+				88EA1779235491BF00BCBE96 /* Service */,
+				88EA1770235490A400BCBE96 /* View Models */,
+				88EA176F2354909E00BCBE96 /* View Controllers */,
+				88EA176A23547DF500BCBE96 /* Custom Views */,
+				88EA17672354796800BCBE96 /* Extensions */,
+				88EA1747235476E500BCBE96 /* Main.storyboard */,
+				88EA174C235476E600BCBE96 /* LaunchScreen.storyboard */,
+				88EA174F235476E600BCBE96 /* Info.plist */,
+				88EA17C3235DDEA400BCBE96 /* Localizable.strings */,
+			);
+			path = Lufthansa;
+			sourceTree = "<group>";
+		};
+		88EA1757235476E700BCBE96 /* LufthansaTests */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1758235476E700BCBE96 /* LufthansaTests.swift */,
+				88EA175A235476E700BCBE96 /* Info.plist */,
+			);
+			path = LufthansaTests;
+			sourceTree = "<group>";
+		};
+		88EA17672354796800BCBE96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17682354797500BCBE96 /* UIColorExtension.swift */,
+				88EA17A12357523600BCBE96 /* UIButtonExtension.swift */,
+				88EA17A7235872B500BCBE96 /* DictionaryExtension.swift */,
+				88EA17C1235DDE5900BCBE96 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88EA176A23547DF500BCBE96 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				88EA176B23547E0300BCBE96 /* LufthansaButton.swift */,
+				88EA176D2354892600BCBE96 /* LufthansaTextView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		88EA176F2354909E00BCBE96 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */,
+				88EA1775235490FC00BCBE96 /* ScheduleListCell.swift */,
+				88EA1771235490C200BCBE96 /* SchedulesListViewController.swift */,
+				88EA179923560E0300BCBE96 /* AirportListViewController.swift */,
+				88EA179D23561CA700BCBE96 /* AirportListCell.swift */,
+				88EA17B32358B2CB00BCBE96 /* ItineraryViewController.swift */,
+				88EA17B72359F0C700BCBE96 /* NoResultsCell.swift */,
+				88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		88EA1770235490A400BCBE96 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */,
+				88EA17772354910900BCBE96 /* ScheduleListCellViewModel.swift */,
+				88EA17B52358B8C700BCBE96 /* ItineraryViewModel.swift */,
+				88EA1773235490DD00BCBE96 /* SchedulesListViewModel.swift */,
+				88EA179B23560E7600BCBE96 /* AirportListViewModel.swift */,
+				88EA179F23561CB600BCBE96 /* AirportListCellViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		88EA1779235491BF00BCBE96 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				88EA177A235491CB00BCBE96 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		88EA177E2354934800BCBE96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17882354984800BCBE96 /* TokenResponse.swift */,
+				88EA1795235600BD00BCBE96 /* PaginatedAirports.swift */,
+				88EA1797235600CB00BCBE96 /* Airport.swift */,
+				88EA17A32357569800BCBE96 /* PaginatedSchedules.swift */,
+				88EA17A92358955100BCBE96 /* Flight.swift */,
+				88EA17A52357572800BCBE96 /* Schedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88EA1781235493F700BCBE96 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				88EA177C235491E000BCBE96 /* DataService.swift */,
+				88EA17C5235DE0C200BCBE96 /* ServiceAlertProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		88EA17822354944E00BCBE96 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17832354945F00BCBE96 /* LufthansaErrorType.swift */,
+				88EA178A23549A6000BCBE96 /* APIUrls.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		88EA17852354950500BCBE96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17862354950D00BCBE96 /* ServiceHelper.swift */,
+				88EA17BB235DD81400BCBE96 /* DateHelper.swift */,
+				88EA17BF235DDE1F00BCBE96 /* AlertHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88EA178D23549B5700BCBE96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88EA178F23549B5800BCBE96 /* Alamofire.framework */,
+				88EA178E23549B5800BCBE96 /* SwiftKeychainWrapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88EA17C7235DE90800BCBE96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1741235476E500BCBE96 /* AppDelegate.swift */,
+				88EA1743235476E500BCBE96 /* SceneDelegate.swift */,
+				88EA174A235476E600BCBE96 /* Assets.xcassets */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88EA173D235476E500BCBE96 /* Lufthansa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EA175D235476E700BCBE96 /* Build configuration list for PBXNativeTarget "Lufthansa" */;
+			buildPhases = (
+				88EA173A235476E500BCBE96 /* Sources */,
+				88EA173B235476E500BCBE96 /* Frameworks */,
+				88EA173C235476E500BCBE96 /* Resources */,
+				88EA178C23549AF400BCBE96 /* ShellScript */,
+				88EA179423549B5800BCBE96 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lufthansa;
+			productName = Lufthansa;
+			productReference = 88EA173E235476E500BCBE96 /* Lufthansa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EA1753235476E700BCBE96 /* LufthansaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EA1760235476E700BCBE96 /* Build configuration list for PBXNativeTarget "LufthansaTests" */;
+			buildPhases = (
+				88EA1750235476E700BCBE96 /* Sources */,
+				88EA1751235476E700BCBE96 /* Frameworks */,
+				88EA1752235476E700BCBE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EA1756235476E700BCBE96 /* PBXTargetDependency */,
+			);
+			name = LufthansaTests;
+			productName = LufthansaTests;
+			productReference = 88EA1754235476E700BCBE96 /* LufthansaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88EA1736235476E500BCBE96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = carlotaprat;
+				TargetAttributes = {
+					88EA173D235476E500BCBE96 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					88EA1753235476E700BCBE96 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 88EA173D235476E500BCBE96;
+					};
+				};
+			};
+			buildConfigurationList = 88EA1739235476E500BCBE96 /* Build configuration list for PBXProject "Lufthansa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88EA1735235476E500BCBE96;
+			productRefGroup = 88EA173F235476E500BCBE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88EA173D235476E500BCBE96 /* Lufthansa */,
+				88EA1753235476E700BCBE96 /* LufthansaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EA173C235476E500BCBE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EA174E235476E600BCBE96 /* LaunchScreen.storyboard in Resources */,
+				88EA17C4235DDEA400BCBE96 /* Localizable.strings in Resources */,
+				88EA174B235476E600BCBE96 /* Assets.xcassets in Resources */,
+				88EA1749235476E500BCBE96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EA1752235476E700BCBE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88EA178C23549AF400BCBE96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftKeychainWrapper.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88EA173A235476E500BCBE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EA1776235490FC00BCBE96 /* ScheduleListCell.swift in Sources */,
+				88EA179E23561CA700BCBE96 /* AirportListCell.swift in Sources */,
+				88EA177D235491E000BCBE96 /* DataService.swift in Sources */,
+				88EA1774235490DD00BCBE96 /* SchedulesListViewModel.swift in Sources */,
+				88EA176C23547E0300BCBE96 /* LufthansaButton.swift in Sources */,
+				88EA1742235476E500BCBE96 /* AppDelegate.swift in Sources */,
+				88EA1798235600CB00BCBE96 /* Airport.swift in Sources */,
+				88EA17C9235DEB2400BCBE96 /* LaunchViewController.swift in Sources */,
+				88EA17B82359F0C700BCBE96 /* NoResultsCell.swift in Sources */,
+				88EA17C2235DDE5900BCBE96 /* StringExtension.swift in Sources */,
+				88EA17A42357569800BCBE96 /* PaginatedSchedules.swift in Sources */,
+				88EA17BC235DD81400BCBE96 /* DateHelper.swift in Sources */,
+				88EA179A23560E0300BCBE96 /* AirportListViewController.swift in Sources */,
+				88EA17872354950D00BCBE96 /* ServiceHelper.swift in Sources */,
+				88EA17C0235DDE1F00BCBE96 /* AlertHelper.swift in Sources */,
+				88EA17892354984800BCBE96 /* TokenResponse.swift in Sources */,
+				88EA17C6235DE0C200BCBE96 /* ServiceAlertProtocol.swift in Sources */,
+				88EA17842354945F00BCBE96 /* LufthansaErrorType.swift in Sources */,
+				88EA17B42358B2CB00BCBE96 /* ItineraryViewController.swift in Sources */,
+				88EA176E2354892600BCBE96 /* LufthansaTextView.swift in Sources */,
+				88EA17B62358B8C700BCBE96 /* ItineraryViewModel.swift in Sources */,
+				88EA17AA2358955100BCBE96 /* Flight.swift in Sources */,
+				88EA179C23560E7600BCBE96 /* AirportListViewModel.swift in Sources */,
+				88EA17662354773F00BCBE96 /* AirportSelectionViewContoller.swift in Sources */,
+				88EA17692354797500BCBE96 /* UIColorExtension.swift in Sources */,
+				88EA1772235490C200BCBE96 /* SchedulesListViewController.swift in Sources */,
+				88EA1744235476E500BCBE96 /* SceneDelegate.swift in Sources */,
+				88EA17A8235872B500BCBE96 /* DictionaryExtension.swift in Sources */,
+				88EA17A22357523600BCBE96 /* UIButtonExtension.swift in Sources */,
+				88EA178B23549A6000BCBE96 /* APIUrls.swift in Sources */,
+				88EA17A023561CB600BCBE96 /* AirportListCellViewModel.swift in Sources */,
+				88EA17642354771E00BCBE96 /* AirportSelectionViewModel.swift in Sources */,
+				88EA177B235491CB00BCBE96 /* APIService.swift in Sources */,
+				88EA1796235600BD00BCBE96 /* PaginatedAirports.swift in Sources */,
+				88EA17A62357572800BCBE96 /* Schedule.swift in Sources */,
+				88EA17782354910900BCBE96 /* ScheduleListCellViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EA1750235476E700BCBE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EA1759235476E700BCBE96 /* LufthansaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88EA1756235476E700BCBE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EA173D235476E500BCBE96 /* Lufthansa */;
+			targetProxy = 88EA1755235476E700BCBE96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88EA1747235476E500BCBE96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EA1748235476E500BCBE96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88EA174C235476E600BCBE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EA174D235476E600BCBE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88EA175B235476E700BCBE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88EA175C235476E700BCBE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EA175E235476E700BCBE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A7F7888B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Lufthansa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlotaprat.Lufthansa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88EA175F235476E700BCBE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A7F7888B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Lufthansa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlotaprat.Lufthansa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88EA1761235476E700BCBE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A7F7888B;
+				INFOPLIST_FILE = LufthansaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlotaprat.LufthansaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lufthansa.app/Lufthansa";
+			};
+			name = Debug;
+		};
+		88EA1762235476E700BCBE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A7F7888B;
+				INFOPLIST_FILE = LufthansaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlotaprat.LufthansaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lufthansa.app/Lufthansa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88EA1739235476E500BCBE96 /* Build configuration list for PBXProject "Lufthansa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EA175B235476E700BCBE96 /* Debug */,
+				88EA175C235476E700BCBE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EA175D235476E700BCBE96 /* Build configuration list for PBXNativeTarget "Lufthansa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EA175E235476E700BCBE96 /* Debug */,
+				88EA175F235476E700BCBE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EA1760235476E700BCBE96 /* Build configuration list for PBXNativeTarget "LufthansaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EA1761235476E700BCBE96 /* Debug */,
+				88EA1762235476E700BCBE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88EA1736235476E500BCBE96 /* Project object */;
+}

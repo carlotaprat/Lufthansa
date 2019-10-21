@@ -1,0 +1,2 @@
+github "Alamofire/Alamofire" ~> 5.0
+github "jrendel/SwiftKeychainWrapper" ~> 3.3
