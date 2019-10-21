@@ -177,7 +177,6 @@
 				88EA1781235493F700BCBE96 /* Protocols */,
 				88EA177E2354934800BCBE96 /* Models */,
 				88EA1779235491BF00BCBE96 /* Service */,
-				88EA1770235490A400BCBE96 /* View Models */,
 				88EA176F2354909E00BCBE96 /* View Controllers */,
 				88EA176A23547DF500BCBE96 /* Custom Views */,
 				88EA17672354796800BCBE96 /* Extensions */,
@@ -221,29 +220,14 @@
 		88EA176F2354909E00BCBE96 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */,
-				88EA1775235490FC00BCBE96 /* ScheduleListCell.swift */,
-				88EA1771235490C200BCBE96 /* SchedulesListViewController.swift */,
-				88EA179923560E0300BCBE96 /* AirportListViewController.swift */,
-				88EA179D23561CA700BCBE96 /* AirportListCell.swift */,
-				88EA17B32358B2CB00BCBE96 /* ItineraryViewController.swift */,
+				88EA17D2235DF5B600BCBE96 /* Itinerary */,
+				88EA17D0235DF59D00BCBE96 /* Schedules List */,
+				88EA17CE235DF58000BCBE96 /* Airports List */,
+				88EA17CC235DF56800BCBE96 /* Airport Selection */,
+				88EA17CA235DF54F00BCBE96 /* Launch */,
 				88EA17B72359F0C700BCBE96 /* NoResultsCell.swift */,
-				88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */,
 			);
 			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		88EA1770235490A400BCBE96 /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-				88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */,
-				88EA17772354910900BCBE96 /* ScheduleListCellViewModel.swift */,
-				88EA17B52358B8C700BCBE96 /* ItineraryViewModel.swift */,
-				88EA1773235490DD00BCBE96 /* SchedulesListViewModel.swift */,
-				88EA179B23560E7600BCBE96 /* AirportListViewModel.swift */,
-				88EA179F23561CB600BCBE96 /* AirportListCellViewModel.swift */,
-			);
-			path = "View Models";
 			sourceTree = "<group>";
 		};
 		88EA1779235491BF00BCBE96 /* Service */ = {
@@ -312,6 +296,86 @@
 				88EA174A235476E600BCBE96 /* Assets.xcassets */,
 			);
 			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		88EA17CA235DF54F00BCBE96 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		88EA17CC235DF56800BCBE96 /* Airport Selection */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */,
+				88EA17CD235DF57100BCBE96 /* View Model */,
+			);
+			path = "Airport Selection";
+			sourceTree = "<group>";
+		};
+		88EA17CD235DF57100BCBE96 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		88EA17CE235DF58000BCBE96 /* Airports List */ = {
+			isa = PBXGroup;
+			children = (
+				88EA179923560E0300BCBE96 /* AirportListViewController.swift */,
+				88EA179D23561CA700BCBE96 /* AirportListCell.swift */,
+				88EA17CF235DF58700BCBE96 /* View Models */,
+			);
+			path = "Airports List";
+			sourceTree = "<group>";
+		};
+		88EA17CF235DF58700BCBE96 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				88EA179B23560E7600BCBE96 /* AirportListViewModel.swift */,
+				88EA179F23561CB600BCBE96 /* AirportListCellViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		88EA17D0235DF59D00BCBE96 /* Schedules List */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1775235490FC00BCBE96 /* ScheduleListCell.swift */,
+				88EA1771235490C200BCBE96 /* SchedulesListViewController.swift */,
+				88EA17D1235DF5A500BCBE96 /* View Models */,
+			);
+			path = "Schedules List";
+			sourceTree = "<group>";
+		};
+		88EA17D1235DF5A500BCBE96 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17772354910900BCBE96 /* ScheduleListCellViewModel.swift */,
+				88EA1773235490DD00BCBE96 /* SchedulesListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		88EA17D2235DF5B600BCBE96 /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17D3235DF5C600BCBE96 /* View Model */,
+				88EA17B32358B2CB00BCBE96 /* ItineraryViewController.swift */,
+			);
+			path = Itinerary;
+			sourceTree = "<group>";
+		};
+		88EA17D3235DF5C600BCBE96 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17B52358B8C700BCBE96 /* ItineraryViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
