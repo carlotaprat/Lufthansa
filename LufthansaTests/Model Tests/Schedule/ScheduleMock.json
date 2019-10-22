@@ -1,0 +1,77 @@
+
+{
+    "TotalJourney": {
+        "Duration": "PT8H25M"
+    },
+    "Flight": [
+        {
+            "Departure": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2019-10-23T06:25"
+                },
+                "Terminal": {
+                    "Name": 1
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2019-10-23T08:05"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 1951
+            },
+            "Equipment": {
+                "AircraftCode": 320
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": 34,
+                "DatePeriod": {
+                    "Effective": "2019-10-23",
+                    "Expiration": "2019-10-24"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2019-10-23T12:25"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "MAD",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2019-10-23T14:50"
+                },
+                "Terminal": {
+                    "Name": 2
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 2026
+            },
+            "Equipment": {
+                "AircraftCode": "CS3"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": 34,
+                "DatePeriod": {
+                    "Effective": "2019-10-23",
+                    "Expiration": "2019-10-24"
+                }
+            }
+        }
+    ]
+}
+   

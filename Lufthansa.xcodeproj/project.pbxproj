@@ -12,7 +12,7 @@
 		88EA1749235476E500BCBE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1747235476E500BCBE96 /* Main.storyboard */; };
 		88EA174B235476E600BCBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EA174A235476E600BCBE96 /* Assets.xcassets */; };
 		88EA174E235476E600BCBE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA174C235476E600BCBE96 /* LaunchScreen.storyboard */; };
-		88EA1759235476E700BCBE96 /* LufthansaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1758235476E700BCBE96 /* LufthansaTests.swift */; };
+		88EA1759235476E700BCBE96 /* PaginatedAirportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1758235476E700BCBE96 /* PaginatedAirportsTests.swift */; };
 		88EA17642354771E00BCBE96 /* AirportSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */; };
 		88EA17662354773F00BCBE96 /* AirportSelectionViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */; };
 		88EA17692354797500BCBE96 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17682354797500BCBE96 /* UIColorExtension.swift */; };
@@ -52,6 +52,47 @@
 		88EA17C4235DDEA400BCBE96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17C3235DDEA400BCBE96 /* Localizable.strings */; };
 		88EA17C6235DE0C200BCBE96 /* ServiceAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17C5235DE0C200BCBE96 /* ServiceAlertProtocol.swift */; };
 		88EA17C9235DEB2400BCBE96 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */; };
+		88EA17D5235F15F100BCBE96 /* PaginatedAirportMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17D4235F15F100BCBE96 /* PaginatedAirportMock.json */; };
+		88EA17D8235F19E000BCBE96 /* PaginatedAirportKeyMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17D6235F19DF00BCBE96 /* PaginatedAirportKeyMock.json */; };
+		88EA17D9235F19E000BCBE96 /* PaginatedAirportTypeMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17D7235F19E000BCBE96 /* PaginatedAirportTypeMock.json */; };
+		88EA17DB235F1A0200BCBE96 /* PaginatedAirportKey2Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17DA235F1A0100BCBE96 /* PaginatedAirportKey2Mock.json */; };
+		88EA17DD235F1B3300BCBE96 /* PaginatedAirportSingleMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17DC235F1B3300BCBE96 /* PaginatedAirportSingleMock.json */; };
+		88EA17E2235F1CAE00BCBE96 /* TokenResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17E1235F1CAE00BCBE96 /* TokenResponseTests.swift */; };
+		88EA17E4235F1D5A00BCBE96 /* TokenKeyMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17E3235F1D5A00BCBE96 /* TokenKeyMock.json */; };
+		88EA17EB235F1D9900BCBE96 /* TokenMissingMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17E9235F1D9900BCBE96 /* TokenMissingMock.json */; };
+		88EA17EC235F1D9900BCBE96 /* TokenValueMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17EA235F1D9900BCBE96 /* TokenValueMock.json */; };
+		88EA17EE235F1E4200BCBE96 /* TokenMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17ED235F1E4200BCBE96 /* TokenMock.json */; };
+		88EA17F1235F1F2F00BCBE96 /* AirportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17F0235F1F2F00BCBE96 /* AirportTests.swift */; };
+		88EA17F3235F1F7E00BCBE96 /* AirportMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17F2235F1F7E00BCBE96 /* AirportMock.json */; };
+		88EA17F6235F1FA900BCBE96 /* AirportKeyMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17F4235F1FA800BCBE96 /* AirportKeyMock.json */; };
+		88EA17F7235F1FA900BCBE96 /* AirportValueMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17F5235F1FA900BCBE96 /* AirportValueMock.json */; };
+		88EA17F9235F204B00BCBE96 /* AirportMissingMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17F8235F204B00BCBE96 /* AirportMissingMock.json */; };
+		88EA17FC235F247800BCBE96 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA17FB235F247800BCBE96 /* LocationTests.swift */; };
+		88EA17FE235F24AC00BCBE96 /* LocationMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17FD235F24AC00BCBE96 /* LocationMock.json */; };
+		88EA1802235F24CA00BCBE96 /* LocationKeyMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA17FF235F24C700BCBE96 /* LocationKeyMock.json */; };
+		88EA1803235F24CA00BCBE96 /* LocationMissingMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1800235F24C900BCBE96 /* LocationMissingMock.json */; };
+		88EA1804235F24CA00BCBE96 /* LocationValueMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1801235F24CA00BCBE96 /* LocationValueMock.json */; };
+		88EA1809235F289200BCBE96 /* PaginatedSchedulesMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1808235F289200BCBE96 /* PaginatedSchedulesMock.json */; };
+		88EA180E235F28E800BCBE96 /* PaginatedSchedulesSingleMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA180A235F28E500BCBE96 /* PaginatedSchedulesSingleMock.json */; };
+		88EA180F235F28E800BCBE96 /* PaginatedSchedulesKeyMock2.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA180B235F28E600BCBE96 /* PaginatedSchedulesKeyMock2.json */; };
+		88EA1810235F28E800BCBE96 /* PaginatedSchedulesMissingMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA180C235F28E600BCBE96 /* PaginatedSchedulesMissingMock.json */; };
+		88EA1811235F28E800BCBE96 /* PaginatedSchedulesKeyMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA180D235F28E800BCBE96 /* PaginatedSchedulesKeyMock.json */; };
+		88EA1815235F29A600BCBE96 /* PaginatedSchedulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1814235F29A600BCBE96 /* PaginatedSchedulesTests.swift */; };
+		88EA1818235F2CC100BCBE96 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1817235F2CC100BCBE96 /* ScheduleTests.swift */; };
+		88EA181C235F2D4D00BCBE96 /* ScheduleMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA181B235F2D4D00BCBE96 /* ScheduleMock.json */; };
+		88EA181F235F2D8600BCBE96 /* ScheduleKeyMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA181D235F2D8500BCBE96 /* ScheduleKeyMock.json */; };
+		88EA1820235F2D8600BCBE96 /* ScheduleSingleMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA181E235F2D8600BCBE96 /* ScheduleSingleMock.json */; };
+		88EA1822235F2E1800BCBE96 /* FlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1821235F2E1800BCBE96 /* FlightTests.swift */; };
+		88EA1824235F2EC300BCBE96 /* FlightMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1823235F2EC300BCBE96 /* FlightMock.json */; };
+		88EA1832235F2F4B00BCBE96 /* FlightKeyMock2.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1826235F2F4300BCBE96 /* FlightKeyMock2.json */; };
+		88EA1835235F2F4B00BCBE96 /* FlightTypeMock1.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1829235F2F4500BCBE96 /* FlightTypeMock1.json */; };
+		88EA1836235F2F4B00BCBE96 /* FlightTypeMock2.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182A235F2F4600BCBE96 /* FlightTypeMock2.json */; };
+		88EA1837235F2F4B00BCBE96 /* FlightKeyMock3.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182B235F2F4700BCBE96 /* FlightKeyMock3.json */; };
+		88EA1838235F2F4B00BCBE96 /* FlightKeyMock4.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182C235F2F4800BCBE96 /* FlightKeyMock4.json */; };
+		88EA1839235F2F4B00BCBE96 /* FlightKeyMock1.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182D235F2F4800BCBE96 /* FlightKeyMock1.json */; };
+		88EA183A235F2F4B00BCBE96 /* FlightTypeMock3.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182E235F2F4900BCBE96 /* FlightTypeMock3.json */; };
+		88EA183B235F2F4B00BCBE96 /* FlightTypeMock4.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182F235F2F4A00BCBE96 /* FlightTypeMock4.json */; };
+		88EA183C235F2F4B00BCBE96 /* FlightKeyMock5.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1830235F2F4B00BCBE96 /* FlightKeyMock5.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +129,7 @@
 		88EA174D235476E600BCBE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EA174F235476E600BCBE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EA1754235476E700BCBE96 /* LufthansaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LufthansaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EA1758235476E700BCBE96 /* LufthansaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufthansaTests.swift; sourceTree = "<group>"; };
+		88EA1758235476E700BCBE96 /* PaginatedAirportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedAirportsTests.swift; sourceTree = "<group>"; };
 		88EA175A235476E700BCBE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EA17632354771E00BCBE96 /* AirportSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionViewModel.swift; sourceTree = "<group>"; };
 		88EA17652354773F00BCBE96 /* AirportSelectionViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSelectionViewContoller.swift; sourceTree = "<group>"; };
@@ -127,6 +168,47 @@
 		88EA17C3235DDEA400BCBE96 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		88EA17C5235DE0C200BCBE96 /* ServiceAlertProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAlertProtocol.swift; sourceTree = "<group>"; };
 		88EA17C8235DEB2400BCBE96 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		88EA17D4235F15F100BCBE96 /* PaginatedAirportMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedAirportMock.json; sourceTree = "<group>"; };
+		88EA17D6235F19DF00BCBE96 /* PaginatedAirportKeyMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedAirportKeyMock.json; sourceTree = "<group>"; };
+		88EA17D7235F19E000BCBE96 /* PaginatedAirportTypeMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedAirportTypeMock.json; sourceTree = "<group>"; };
+		88EA17DA235F1A0100BCBE96 /* PaginatedAirportKey2Mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedAirportKey2Mock.json; sourceTree = "<group>"; };
+		88EA17DC235F1B3300BCBE96 /* PaginatedAirportSingleMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedAirportSingleMock.json; sourceTree = "<group>"; };
+		88EA17E1235F1CAE00BCBE96 /* TokenResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponseTests.swift; sourceTree = "<group>"; };
+		88EA17E3235F1D5A00BCBE96 /* TokenKeyMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TokenKeyMock.json; sourceTree = "<group>"; };
+		88EA17E9235F1D9900BCBE96 /* TokenMissingMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TokenMissingMock.json; path = ../../../../TokenMissingMock.json; sourceTree = "<group>"; };
+		88EA17EA235F1D9900BCBE96 /* TokenValueMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TokenValueMock.json; path = ../../../../TokenValueMock.json; sourceTree = "<group>"; };
+		88EA17ED235F1E4200BCBE96 /* TokenMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TokenMock.json; path = ../../../../TokenMock.json; sourceTree = "<group>"; };
+		88EA17F0235F1F2F00BCBE96 /* AirportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTests.swift; sourceTree = "<group>"; };
+		88EA17F2235F1F7E00BCBE96 /* AirportMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AirportMock.json; sourceTree = "<group>"; };
+		88EA17F4235F1FA800BCBE96 /* AirportKeyMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AirportKeyMock.json; sourceTree = "<group>"; };
+		88EA17F5235F1FA900BCBE96 /* AirportValueMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AirportValueMock.json; sourceTree = "<group>"; };
+		88EA17F8235F204B00BCBE96 /* AirportMissingMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AirportMissingMock.json; sourceTree = "<group>"; };
+		88EA17FB235F247800BCBE96 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		88EA17FD235F24AC00BCBE96 /* LocationMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LocationMock.json; sourceTree = "<group>"; };
+		88EA17FF235F24C700BCBE96 /* LocationKeyMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LocationKeyMock.json; sourceTree = "<group>"; };
+		88EA1800235F24C900BCBE96 /* LocationMissingMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LocationMissingMock.json; sourceTree = "<group>"; };
+		88EA1801235F24CA00BCBE96 /* LocationValueMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LocationValueMock.json; sourceTree = "<group>"; };
+		88EA1808235F289200BCBE96 /* PaginatedSchedulesMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedSchedulesMock.json; sourceTree = "<group>"; };
+		88EA180A235F28E500BCBE96 /* PaginatedSchedulesSingleMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedSchedulesSingleMock.json; sourceTree = "<group>"; };
+		88EA180B235F28E600BCBE96 /* PaginatedSchedulesKeyMock2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedSchedulesKeyMock2.json; sourceTree = "<group>"; };
+		88EA180C235F28E600BCBE96 /* PaginatedSchedulesMissingMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedSchedulesMissingMock.json; sourceTree = "<group>"; };
+		88EA180D235F28E800BCBE96 /* PaginatedSchedulesKeyMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaginatedSchedulesKeyMock.json; sourceTree = "<group>"; };
+		88EA1814235F29A600BCBE96 /* PaginatedSchedulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedSchedulesTests.swift; sourceTree = "<group>"; };
+		88EA1817235F2CC100BCBE96 /* ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
+		88EA181B235F2D4D00BCBE96 /* ScheduleMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleMock.json; sourceTree = "<group>"; };
+		88EA181D235F2D8500BCBE96 /* ScheduleKeyMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleKeyMock.json; sourceTree = "<group>"; };
+		88EA181E235F2D8600BCBE96 /* ScheduleSingleMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleSingleMock.json; sourceTree = "<group>"; };
+		88EA1821235F2E1800BCBE96 /* FlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTests.swift; sourceTree = "<group>"; };
+		88EA1823235F2EC300BCBE96 /* FlightMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightMock.json; sourceTree = "<group>"; };
+		88EA1826235F2F4300BCBE96 /* FlightKeyMock2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightKeyMock2.json; sourceTree = "<group>"; };
+		88EA1829235F2F4500BCBE96 /* FlightTypeMock1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightTypeMock1.json; sourceTree = "<group>"; };
+		88EA182A235F2F4600BCBE96 /* FlightTypeMock2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightTypeMock2.json; sourceTree = "<group>"; };
+		88EA182B235F2F4700BCBE96 /* FlightKeyMock3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightKeyMock3.json; sourceTree = "<group>"; };
+		88EA182C235F2F4800BCBE96 /* FlightKeyMock4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightKeyMock4.json; sourceTree = "<group>"; };
+		88EA182D235F2F4800BCBE96 /* FlightKeyMock1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightKeyMock1.json; sourceTree = "<group>"; };
+		88EA182E235F2F4900BCBE96 /* FlightTypeMock3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightTypeMock3.json; sourceTree = "<group>"; };
+		88EA182F235F2F4A00BCBE96 /* FlightTypeMock4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightTypeMock4.json; sourceTree = "<group>"; };
+		88EA1830235F2F4B00BCBE96 /* FlightKeyMock5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightKeyMock5.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +273,7 @@
 		88EA1757235476E700BCBE96 /* LufthansaTests */ = {
 			isa = PBXGroup;
 			children = (
-				88EA1758235476E700BCBE96 /* LufthansaTests.swift */,
+				88EA17DE235F1C4400BCBE96 /* Model Tests */,
 				88EA175A235476E700BCBE96 /* Info.plist */,
 			);
 			path = LufthansaTests;
@@ -378,6 +460,111 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
+		88EA17DE235F1C4400BCBE96 /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1807235F279500BCBE96 /* Schedule */,
+				88EA1806235F278D00BCBE96 /* Flight */,
+				88EA1805235F277D00BCBE96 /* Paginated Schedules */,
+				88EA17FA235F245D00BCBE96 /* Location */,
+				88EA17EF235F1F1800BCBE96 /* Airport */,
+				88EA17E0235F1C5500BCBE96 /* Token Response */,
+				88EA17DF235F1C4900BCBE96 /* Paginated Airports */,
+			);
+			path = "Model Tests";
+			sourceTree = "<group>";
+		};
+		88EA17DF235F1C4900BCBE96 /* Paginated Airports */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17D4235F15F100BCBE96 /* PaginatedAirportMock.json */,
+				88EA17DC235F1B3300BCBE96 /* PaginatedAirportSingleMock.json */,
+				88EA17D6235F19DF00BCBE96 /* PaginatedAirportKeyMock.json */,
+				88EA17DA235F1A0100BCBE96 /* PaginatedAirportKey2Mock.json */,
+				88EA17D7235F19E000BCBE96 /* PaginatedAirportTypeMock.json */,
+				88EA1758235476E700BCBE96 /* PaginatedAirportsTests.swift */,
+			);
+			path = "Paginated Airports";
+			sourceTree = "<group>";
+		};
+		88EA17E0235F1C5500BCBE96 /* Token Response */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17E1235F1CAE00BCBE96 /* TokenResponseTests.swift */,
+				88EA17EA235F1D9900BCBE96 /* TokenValueMock.json */,
+				88EA17E3235F1D5A00BCBE96 /* TokenKeyMock.json */,
+				88EA17E9235F1D9900BCBE96 /* TokenMissingMock.json */,
+				88EA17ED235F1E4200BCBE96 /* TokenMock.json */,
+			);
+			path = "Token Response";
+			sourceTree = "<group>";
+		};
+		88EA17EF235F1F1800BCBE96 /* Airport */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17F2235F1F7E00BCBE96 /* AirportMock.json */,
+				88EA17F0235F1F2F00BCBE96 /* AirportTests.swift */,
+				88EA17F4235F1FA800BCBE96 /* AirportKeyMock.json */,
+				88EA17F5235F1FA900BCBE96 /* AirportValueMock.json */,
+				88EA17F8235F204B00BCBE96 /* AirportMissingMock.json */,
+			);
+			path = Airport;
+			sourceTree = "<group>";
+		};
+		88EA17FA235F245D00BCBE96 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				88EA17FB235F247800BCBE96 /* LocationTests.swift */,
+				88EA17FD235F24AC00BCBE96 /* LocationMock.json */,
+				88EA17FF235F24C700BCBE96 /* LocationKeyMock.json */,
+				88EA1800235F24C900BCBE96 /* LocationMissingMock.json */,
+				88EA1801235F24CA00BCBE96 /* LocationValueMock.json */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		88EA1805235F277D00BCBE96 /* Paginated Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1808235F289200BCBE96 /* PaginatedSchedulesMock.json */,
+				88EA180D235F28E800BCBE96 /* PaginatedSchedulesKeyMock.json */,
+				88EA180C235F28E600BCBE96 /* PaginatedSchedulesMissingMock.json */,
+				88EA180B235F28E600BCBE96 /* PaginatedSchedulesKeyMock2.json */,
+				88EA180A235F28E500BCBE96 /* PaginatedSchedulesSingleMock.json */,
+				88EA1814235F29A600BCBE96 /* PaginatedSchedulesTests.swift */,
+			);
+			path = "Paginated Schedules";
+			sourceTree = "<group>";
+		};
+		88EA1806235F278D00BCBE96 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1821235F2E1800BCBE96 /* FlightTests.swift */,
+				88EA1823235F2EC300BCBE96 /* FlightMock.json */,
+				88EA182D235F2F4800BCBE96 /* FlightKeyMock1.json */,
+				88EA1826235F2F4300BCBE96 /* FlightKeyMock2.json */,
+				88EA182B235F2F4700BCBE96 /* FlightKeyMock3.json */,
+				88EA182C235F2F4800BCBE96 /* FlightKeyMock4.json */,
+				88EA1830235F2F4B00BCBE96 /* FlightKeyMock5.json */,
+				88EA1829235F2F4500BCBE96 /* FlightTypeMock1.json */,
+				88EA182A235F2F4600BCBE96 /* FlightTypeMock2.json */,
+				88EA182E235F2F4900BCBE96 /* FlightTypeMock3.json */,
+				88EA182F235F2F4A00BCBE96 /* FlightTypeMock4.json */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+		88EA1807235F279500BCBE96 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1817235F2CC100BCBE96 /* ScheduleTests.swift */,
+				88EA181B235F2D4D00BCBE96 /* ScheduleMock.json */,
+				88EA181D235F2D8500BCBE96 /* ScheduleKeyMock.json */,
+				88EA181E235F2D8600BCBE96 /* ScheduleSingleMock.json */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -472,6 +659,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA17F9235F204B00BCBE96 /* AirportMissingMock.json in Resources */,
+				88EA183A235F2F4B00BCBE96 /* FlightTypeMock3.json in Resources */,
+				88EA17D5235F15F100BCBE96 /* PaginatedAirportMock.json in Resources */,
+				88EA17F7235F1FA900BCBE96 /* AirportValueMock.json in Resources */,
+				88EA1810235F28E800BCBE96 /* PaginatedSchedulesMissingMock.json in Resources */,
+				88EA1838235F2F4B00BCBE96 /* FlightKeyMock4.json in Resources */,
+				88EA181F235F2D8600BCBE96 /* ScheduleKeyMock.json in Resources */,
+				88EA183B235F2F4B00BCBE96 /* FlightTypeMock4.json in Resources */,
+				88EA1839235F2F4B00BCBE96 /* FlightKeyMock1.json in Resources */,
+				88EA1811235F28E800BCBE96 /* PaginatedSchedulesKeyMock.json in Resources */,
+				88EA17D8235F19E000BCBE96 /* PaginatedAirportKeyMock.json in Resources */,
+				88EA1837235F2F4B00BCBE96 /* FlightKeyMock3.json in Resources */,
+				88EA1804235F24CA00BCBE96 /* LocationValueMock.json in Resources */,
+				88EA17EB235F1D9900BCBE96 /* TokenMissingMock.json in Resources */,
+				88EA1824235F2EC300BCBE96 /* FlightMock.json in Resources */,
+				88EA17DD235F1B3300BCBE96 /* PaginatedAirportSingleMock.json in Resources */,
+				88EA17E4235F1D5A00BCBE96 /* TokenKeyMock.json in Resources */,
+				88EA17F3235F1F7E00BCBE96 /* AirportMock.json in Resources */,
+				88EA1802235F24CA00BCBE96 /* LocationKeyMock.json in Resources */,
+				88EA180F235F28E800BCBE96 /* PaginatedSchedulesKeyMock2.json in Resources */,
+				88EA181C235F2D4D00BCBE96 /* ScheduleMock.json in Resources */,
+				88EA1835235F2F4B00BCBE96 /* FlightTypeMock1.json in Resources */,
+				88EA17EC235F1D9900BCBE96 /* TokenValueMock.json in Resources */,
+				88EA17F6235F1FA900BCBE96 /* AirportKeyMock.json in Resources */,
+				88EA17EE235F1E4200BCBE96 /* TokenMock.json in Resources */,
+				88EA180E235F28E800BCBE96 /* PaginatedSchedulesSingleMock.json in Resources */,
+				88EA183C235F2F4B00BCBE96 /* FlightKeyMock5.json in Resources */,
+				88EA17DB235F1A0200BCBE96 /* PaginatedAirportKey2Mock.json in Resources */,
+				88EA1836235F2F4B00BCBE96 /* FlightTypeMock2.json in Resources */,
+				88EA1832235F2F4B00BCBE96 /* FlightKeyMock2.json in Resources */,
+				88EA1803235F24CA00BCBE96 /* LocationMissingMock.json in Resources */,
+				88EA17FE235F24AC00BCBE96 /* LocationMock.json in Resources */,
+				88EA1809235F289200BCBE96 /* PaginatedSchedulesMock.json in Resources */,
+				88EA17D9235F19E000BCBE96 /* PaginatedAirportTypeMock.json in Resources */,
+				88EA1820235F2D8600BCBE96 /* ScheduleSingleMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +769,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EA1759235476E700BCBE96 /* LufthansaTests.swift in Sources */,
+				88EA1822235F2E1800BCBE96 /* FlightTests.swift in Sources */,
+				88EA17F1235F1F2F00BCBE96 /* AirportTests.swift in Sources */,
+				88EA1815235F29A600BCBE96 /* PaginatedSchedulesTests.swift in Sources */,
+				88EA1818235F2CC100BCBE96 /* ScheduleTests.swift in Sources */,
+				88EA17E2235F1CAE00BCBE96 /* TokenResponseTests.swift in Sources */,
+				88EA17FC235F247800BCBE96 /* LocationTests.swift in Sources */,
+				88EA1759235476E700BCBE96 /* PaginatedAirportsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

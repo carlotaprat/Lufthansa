@@ -33,6 +33,12 @@ class PaginatedAirports: Decodable {
             self.airports = [airport]
         }
         let metaContainer = try airportsContainer.nestedContainer(keyedBy: MetaCodingKeys.self, forKey: .meta)
-        self.total = try metaContainer.decodeIfPresent(Int.self, forKey: .total) ?? 1
+        if let totalProv =  try metaContainer.decodeIfPresent(Int.self, forKey: .total) {
+            self.total = totalProv
+        } else if self.airports.count == 1 {
+            self.total = 1
+        } else {
+            self.total = 0
+        }
     }
 }

@@ -9,7 +9,7 @@ class Airport: Decodable {
     enum CodingKeys: String, CodingKey {
         case names = "Names"
         case positions = "Position"
-        case code = "CityCode"
+        case code = "AirportCode"
     }
     
     enum NameCodingKeys: String, CodingKey {

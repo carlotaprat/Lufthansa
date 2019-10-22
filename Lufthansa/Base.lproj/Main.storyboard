@@ -21,20 +21,20 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AirportCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AirportCell" id="1pr-Jg-bO3" customClass="AirportListCell" customModule="Lufthansa" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="63.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1pr-Jg-bO3" id="yjn-oA-AGQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZL4-3O-nZg">
-                                                    <rect key="frame" x="74.5" y="21.5" width="319.5" height="21"/>
+                                                    <rect key="frame" x="74.5" y="21" width="319.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaE-0D-x6Q">
-                                                    <rect key="frame" x="20" y="21" width="44.5" height="21.5"/>
+                                                    <rect key="frame" x="20" y="21" width="44.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -55,7 +55,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoResultsCell" id="Bm8-Qj-fau" customClass="NoResultsCell" customModule="Lufthansa" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="91.5" width="414" height="66.5"/>
+                                        <rect key="frame" x="0.0" y="91" width="414" height="66.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bm8-Qj-fau" id="LLR-b1-gbj">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="66.5"/>

@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "SwiftKeychainWrapper",
-      "hash" : "0860984bfae14e041e009521fc05b515fce07c84ccec7b9fd08eba890f161d01",
+      "hash" : "7004fb3b4db563e2457f510fb2acee3caf0510bd0904ce8253f6c229aae819f4",
       "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
     }
   ]

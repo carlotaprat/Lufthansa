@@ -1,0 +1,15 @@
+
+{
+    "AirportCode": "AAA",
+    "Position": {
+        "Coordinate": {
+            "Latitude": -17.3525,
+            "Longitude": -145.51
+        }
+    },
+    "CityCode": "AAA",
+    "CountryCode": "PF",
+    "LocationType": "Airport",
+    "UtcOffset": "-10:00",
+    "TimeZoneId": "Pacific/Tahiti"
+}

@@ -1,0 +1,52 @@
+{
+    "AirportResource": {
+        "Airports": {
+            "Airport":
+                {
+                    "AirportCode": "AAA",
+                    "Position": {
+                        "Coordinate": {
+                            "Latitude": -17.3525,
+                            "Longitude": -145.51
+                        }
+                    },
+                    "CityCode": "AAA",
+                    "CountryCode": "PF",
+                    "LocationType": "Airport",
+                    "Names": {
+                        "Name": {
+                            "@LanguageCode": "EN",
+                            "$": "Anaa"
+                        }
+                    },
+                    "UtcOffset": "-10:00",
+                    "TimeZoneId": "Pacific/Tahiti"
+                }
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports?airportCode=TA&offset=0&lang=EN",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports?airportCode=TA&offset=20&lang=EN&limit=20",
+                    "@Rel": "next"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports?airportCode=TA&offset=11640&lang=EN&limit=20",
+                    "@Rel": "last"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/cities/{cityCode}",
+                    "@Rel": "related"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/countries/{countryCode}",
+                    "@Rel": "related"
+                }
+            ]
+        }
+    }
+}
