@@ -1,0 +1,21 @@
+
+{
+    "AirportCode": "AAA",
+    "Position": {
+        "Coordinate": {
+            "Latitude": -17,
+            "Longitude": -145
+        }
+    },
+    "CityCode": "AAA",
+    "CountryCode": "PF",
+    "LocationType": "Airport",
+    "Names": {
+        "Name": {
+            "@LanguageCode": "EN",
+            "$": "Anaa"
+        }
+    },
+    "UtcOffset": "-10:00",
+    "TimeZoneId": "Pacific/Tahiti"
+}

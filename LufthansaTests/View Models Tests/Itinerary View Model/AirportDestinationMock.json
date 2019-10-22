@@ -1,0 +1,21 @@
+
+{
+    "AirportCode": "BBB",
+    "Position": {
+        "Coordinate": {
+            "Latitude": -10,
+            "Longitude": -50
+        }
+    },
+    "CityCode": "AAA",
+    "CountryCode": "PF",
+    "LocationType": "Airport",
+    "Names": {
+        "Name": {
+            "@LanguageCode": "EN",
+            "$": "Beaa"
+        }
+    },
+    "UtcOffset": "-10:00",
+    "TimeZoneId": "Pacific/Tahiti"
+}

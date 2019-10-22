@@ -93,6 +93,11 @@
 		88EA183A235F2F4B00BCBE96 /* FlightTypeMock3.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182E235F2F4900BCBE96 /* FlightTypeMock3.json */; };
 		88EA183B235F2F4B00BCBE96 /* FlightTypeMock4.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA182F235F2F4A00BCBE96 /* FlightTypeMock4.json */; };
 		88EA183C235F2F4B00BCBE96 /* FlightKeyMock5.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1830235F2F4B00BCBE96 /* FlightKeyMock5.json */; };
+		88EA183F235F3E8400BCBE96 /* ItineraryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA183E235F3E8400BCBE96 /* ItineraryViewModelTests.swift */; };
+		88EA1841235F3F0700BCBE96 /* AirportOriginMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1840235F3F0700BCBE96 /* AirportOriginMock.json */; };
+		88EA1843235F3F1A00BCBE96 /* AirportDestinationMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1842235F3F1A00BCBE96 /* AirportDestinationMock.json */; };
+		88EA1847235F43F700BCBE96 /* SchedulesViewModelMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 88EA1846235F43F700BCBE96 /* SchedulesViewModelMock.json */; };
+		88EA1849235F440E00BCBE96 /* SchedulesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1848235F440E00BCBE96 /* SchedulesListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +214,11 @@
 		88EA182E235F2F4900BCBE96 /* FlightTypeMock3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightTypeMock3.json; sourceTree = "<group>"; };
 		88EA182F235F2F4A00BCBE96 /* FlightTypeMock4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightTypeMock4.json; sourceTree = "<group>"; };
 		88EA1830235F2F4B00BCBE96 /* FlightKeyMock5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightKeyMock5.json; sourceTree = "<group>"; };
+		88EA183E235F3E8400BCBE96 /* ItineraryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModelTests.swift; sourceTree = "<group>"; };
+		88EA1840235F3F0700BCBE96 /* AirportOriginMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AirportOriginMock.json; sourceTree = "<group>"; };
+		88EA1842235F3F1A00BCBE96 /* AirportDestinationMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AirportDestinationMock.json; sourceTree = "<group>"; };
+		88EA1846235F43F700BCBE96 /* SchedulesViewModelMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SchedulesViewModelMock.json; sourceTree = "<group>"; };
+		88EA1848235F440E00BCBE96 /* SchedulesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +283,7 @@
 		88EA1757235476E700BCBE96 /* LufthansaTests */ = {
 			isa = PBXGroup;
 			children = (
+				88EA183D235F3E7100BCBE96 /* View Models Tests */,
 				88EA17DE235F1C4400BCBE96 /* Model Tests */,
 				88EA175A235476E700BCBE96 /* Info.plist */,
 			);
@@ -565,6 +576,34 @@
 			path = Schedule;
 			sourceTree = "<group>";
 		};
+		88EA183D235F3E7100BCBE96 /* View Models Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1845235F43C400BCBE96 /* Schedules List View Model */,
+				88EA1844235F43B600BCBE96 /* Itinerary View Model */,
+			);
+			path = "View Models Tests";
+			sourceTree = "<group>";
+		};
+		88EA1844235F43B600BCBE96 /* Itinerary View Model */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1840235F3F0700BCBE96 /* AirportOriginMock.json */,
+				88EA1842235F3F1A00BCBE96 /* AirportDestinationMock.json */,
+				88EA183E235F3E8400BCBE96 /* ItineraryViewModelTests.swift */,
+			);
+			path = "Itinerary View Model";
+			sourceTree = "<group>";
+		};
+		88EA1845235F43C400BCBE96 /* Schedules List View Model */ = {
+			isa = PBXGroup;
+			children = (
+				88EA1846235F43F700BCBE96 /* SchedulesViewModelMock.json */,
+				88EA1848235F440E00BCBE96 /* SchedulesListViewModelTests.swift */,
+			);
+			path = "Schedules List View Model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -663,6 +702,7 @@
 				88EA183A235F2F4B00BCBE96 /* FlightTypeMock3.json in Resources */,
 				88EA17D5235F15F100BCBE96 /* PaginatedAirportMock.json in Resources */,
 				88EA17F7235F1FA900BCBE96 /* AirportValueMock.json in Resources */,
+				88EA1843235F3F1A00BCBE96 /* AirportDestinationMock.json in Resources */,
 				88EA1810235F28E800BCBE96 /* PaginatedSchedulesMissingMock.json in Resources */,
 				88EA1838235F2F4B00BCBE96 /* FlightKeyMock4.json in Resources */,
 				88EA181F235F2D8600BCBE96 /* ScheduleKeyMock.json in Resources */,
@@ -677,6 +717,7 @@
 				88EA17DD235F1B3300BCBE96 /* PaginatedAirportSingleMock.json in Resources */,
 				88EA17E4235F1D5A00BCBE96 /* TokenKeyMock.json in Resources */,
 				88EA17F3235F1F7E00BCBE96 /* AirportMock.json in Resources */,
+				88EA1847235F43F700BCBE96 /* SchedulesViewModelMock.json in Resources */,
 				88EA1802235F24CA00BCBE96 /* LocationKeyMock.json in Resources */,
 				88EA180F235F28E800BCBE96 /* PaginatedSchedulesKeyMock2.json in Resources */,
 				88EA181C235F2D4D00BCBE96 /* ScheduleMock.json in Resources */,
@@ -694,6 +735,7 @@
 				88EA1809235F289200BCBE96 /* PaginatedSchedulesMock.json in Resources */,
 				88EA17D9235F19E000BCBE96 /* PaginatedAirportTypeMock.json in Resources */,
 				88EA1820235F2D8600BCBE96 /* ScheduleSingleMock.json in Resources */,
+				88EA1841235F3F0700BCBE96 /* AirportOriginMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,11 +812,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EA1822235F2E1800BCBE96 /* FlightTests.swift in Sources */,
+				88EA1849235F440E00BCBE96 /* SchedulesListViewModelTests.swift in Sources */,
 				88EA17F1235F1F2F00BCBE96 /* AirportTests.swift in Sources */,
 				88EA1815235F29A600BCBE96 /* PaginatedSchedulesTests.swift in Sources */,
 				88EA1818235F2CC100BCBE96 /* ScheduleTests.swift in Sources */,
 				88EA17E2235F1CAE00BCBE96 /* TokenResponseTests.swift in Sources */,
 				88EA17FC235F247800BCBE96 /* LocationTests.swift in Sources */,
+				88EA183F235F3E8400BCBE96 /* ItineraryViewModelTests.swift in Sources */,
 				88EA1759235476E700BCBE96 /* PaginatedAirportsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
